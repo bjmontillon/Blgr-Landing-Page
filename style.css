@@ -1,0 +1,75 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Fonts
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass?preview.text_type=custom)
+- Weights: 300, 600
+
+- Family: [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom)
+- Weights: 400, 500, 700 */
+
+:root {
+    /* ## Colors */
+
+/* ### Primary */
+
+--Light-red: hsl(356, 100%, 66%);
+/* (CTA hover background) */
+--Very-lightred: hsl(355, 100%, 74%);
+/* (headings) */
+--Very-dark-blue: hsl(208, 49%, 24%);
+
+/* ### Neutral */
+/* (text) */
+--White: hsl(0, 0%, 100%);
+/* (footer text): */
+--Grayish-blue: hsl(240, 2%, 79%);
+/* (body copy) */
+--Very-dark-grayish-blue: hsl(207, 13%, 34%);
+/* (footer background) */
+--Very-dark-black-blue: hsl(240, 10%, 16%);
+
+/* ### Gradient */
+
+/* Background gradient - Intro/CTA mobile nav: */
+
+--Very-light-red: hsl(13, 100%, 72%);
+--Light-red: hsl(353, 100%, 62%);
+
+/* Background gradient - body: */
+
+--Very-dark-gray-blue: hsl(237, 17%, 21%);
+--Very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow-x: hidden;
+}
+
+body {
+    max-width:  219.17808219178082vh;
+}
