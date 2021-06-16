@@ -121,48 +121,57 @@ header nav .nav-links {
     grid-template-areas: "product company connect";
     align-items: center;
     color: white;
-    
 }
 
+header nav .nav-links:hover {
+    cursor: pointer;
+}
 
-.nav-links .product-links{
-    border: 1px solid red;
-    height:150px;
-    width: 150px;
+.nav-links ul {
+    margin-top: 10.654490106544902vh;
+    min-height: 12.831050228310502vh;
+    min-width: 5.980966325036603vw;
+    border-radius: 10px;
     position: absolute;
     z-index: 1;
     background-color: var(--White);
-    border-radius: 10px;
-    left: 400px;
-    top: 100px;
+    
+}
+
+.nav-links .product-links{
+    border: 1px solid red;
+    left: 27.452415812591507vw;
+    visibility: visible;
 }
 
 .nav-links .company-links{
     border: 1px solid blue;
-    height:150px;
-    width: 150px;
-    position: absolute;
-    z-index: 1;
-    background-color: var(--White);
-    border-radius: 10px;
-    left: 550px;
-    top: 100px;
+    left: 37.33528550512445vw;
 }
 
 .nav-links .connect-links{
     border: 1px solid green;
-    height:150px;
-    width: 150px;
-    position: absolute;
-    z-index: 1;
-    background-color: var(--White);
-    border-radius: 10px;
-    left: 680px;
-    top: 100px;
+    left: 46.48609077598829vw;
+}
+
+.nav-links .fa,.fas {
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.nav-links li {
+    height: 21px;
+    width: 90px;
+    margin: 5px;
 }
 
 .nav-links ul li a {
     text-decoration: none;
+}
+
+.nav-links li a:hover {
+    border-bottom: 1px solid black;
 }
 
 header nav .btns{
@@ -232,8 +241,8 @@ header .header-content {
     height: 4.5vh;
     width: 7vw;
     border-radius: 25px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left:0.36603221083455345vw;
+    margin-right: 0.36603221083455345vw;
     border: 1px solid white;
     background-color: unset;
     font-size:  0.80rem;
