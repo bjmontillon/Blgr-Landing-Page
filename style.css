@@ -135,29 +135,32 @@ header nav .nav-links:hover {
     position: absolute;
     z-index: 1;
     background-color: var(--White);
-    
+
 }
 
 .nav-links .product-links{
     border: 1px solid red;
     left: 27.452415812591507vw;
-    visibility: visible;
+    visibility: hidden;
 }
 
 .nav-links .company-links{
     border: 1px solid blue;
     left: 37.33528550512445vw;
+    visibility: hidden;
 }
 
 .nav-links .connect-links{
     border: 1px solid green;
     left: 46.48609077598829vw;
+    visibility: hidden;
 }
 
-.nav-links .fa,.fas {
+.nav-links .fas {
     font-size: 11px;
     font-weight: 500;
     margin-left: 5px;
+    transition: 0.4s;
 }
 
 .nav-links li {
