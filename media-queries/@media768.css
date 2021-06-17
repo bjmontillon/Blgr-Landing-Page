@@ -97,6 +97,7 @@ header nav .nav-links:hover {
 }
 
 header nav .btns {
+    visibility: visible;
     border: 1px solid blue;
     display: grid;
     grid-template-columns: 50% 50%;
