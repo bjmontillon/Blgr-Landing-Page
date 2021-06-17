@@ -7,15 +7,14 @@
         margin: 0;
         background-image: url(../images/bg-pattern-intro.svg), linear-gradient(244deg, hsl(353, 100%, 62%, 0.5), hsl(13, 62%, 62%, 0.9));
         background-position: center;
-        background-size: 2300px;
+        background-size: 1000px;
         background-repeat: no-repeat;
         border-radius: 0 0 0 100px;
     }
 
     header nav {
-        border: 1px solid white;
         height: 10.220700152207002vh;
-        width: 80%;
+        width: 90%;
         margin: auto;
         display: grid;
         grid-template-columns: 30% 50% 20%;
@@ -25,7 +24,6 @@
     }
 
     header nav .logo {
-        border: 1px solid green;
         display: grid;
         align-items: center;
         font-size: 1.25rem;
@@ -34,7 +32,6 @@
     }
 
     header nav .nav-links {
-        border: 1px solid yellow;
         display: grid;
         grid-template-columns: 29% 30% 30%;
         grid-template-areas: "product company connect";
@@ -55,23 +52,22 @@
         position: absolute;
         z-index: 1;
         background-color: var(--White);
-
     }
 
     .nav-links .product-links {
-        border: 1px solid red;
+
         left: 27.452415812591507vw;
         visibility: hidden;
     }
 
     .nav-links .company-links {
-        border: 1px solid blue;
+
         left: 37.33528550512445vw;
         visibility: hidden;
     }
 
     .nav-links .connect-links {
-        border: 1px solid green;
+
         left: 46.48609077598829vw;
         visibility: hidden;
     }
@@ -93,12 +89,10 @@
         text-decoration: none;
     }
 
-    .nav-links li a:hover {
-        border-bottom: 1px solid black;
-    }
+    .nav-links li a:hover {}
 
     header nav .btns {
-        border: 1px solid blue;
+
         display: grid;
         grid-template-columns: 50% 50%;
         place-items: center;
@@ -126,16 +120,14 @@
 
     header .header-content {
         display: grid;
-        border: 2px solid violet;
         height: 70%;
-        width: 80%;
+        width: 90%;
         margin: auto;
         place-items: center;
         font-family: var(--ubuntu);
     }
 
     .header-content .header-content-items {
-        border: 2px solid black;
         height: 70%;
         width: 80%;
         place-items: center;
@@ -144,12 +136,13 @@
 
     .header-content-items h1 {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         color: white;
         font-weight: 300;
     }
 
     .header-content-items p {
+        text-align: center;
         font-size: 0.7rem;
         font-weight: 500;
         letter-spacing: 2.4px;
@@ -158,12 +151,11 @@
 
     .header-content-btns {
         display: flex;
-
     }
 
     .header-content-btns button {
         height: 6vh;
-        width: 15vw;
+        width: 30vw;
         border-radius: 25px;
         margin-left: 0.36603221083455345vw;
         margin-right: 0.36603221083455345vw;

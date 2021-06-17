@@ -1,4 +1,3 @@
-
 var proLink = document.getElementById("prolink");
 var chevOne = document.getElementById("chevOne");
 var comLink = document.getElementById("comlink");
@@ -42,9 +41,3 @@ window.addEventListener('mouseup', function (eventConn) {
         chevThree.style.cssText = "-webkit-transform: rotateX(0deg);transform: rotateX(0deg)";
     }
 })
-
-
-
-
-
-
