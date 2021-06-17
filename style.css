@@ -24,6 +24,7 @@ The designs were created to the following widths:
 - Weights: 400, 500, 700 */
 @import url(./media-queries/@media375.css);
 @import url(./media-queries/@minmedia375.css);
+@import url(./media-queries/hamburger-menu/hamburger-menu.css);
 @import url(./media-queries/@media600.css);
 @import url(./media-queries/@media768.css);
 @import url(./media-queries/@media992.css);

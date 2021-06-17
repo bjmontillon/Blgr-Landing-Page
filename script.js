@@ -41,3 +41,9 @@ window.addEventListener('mouseup', function (eventConn) {
         chevThree.style.cssText = "-webkit-transform: rotateX(0deg);transform: rotateX(0deg)";
     }
 })
+
+
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
