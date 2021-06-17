@@ -87,7 +87,9 @@ The designs were created to the following widths:
     overflow-x: hidden;
 }
 
-*:focus {outline:0;}
+nav .hamburger {
+    -webkit-tap-highlight-color: transparent;
+}
 
 html {
     scroll-behavior: smooth;
