@@ -85,9 +85,6 @@ The designs were created to the following widths:
     margin: 0;
     display: block;
     overflow-x: hidden;
-}
-
-nav .container {
     -webkit-tap-highlight-color: transparent;
 }
 
