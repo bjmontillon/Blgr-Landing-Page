@@ -42,9 +42,9 @@ window.addEventListener('mouseup', function (eventConn) {
     }
 })
 
-var accordionMenu = document.getElementById("accordionMenu");
-var hamburgerMenu = document.getElementById("hamburgerMenu");
 hamburgerMenu.addEventListener('click', function () {
+    var accordionMenu = document.getElementById("accordionMenu");
+    var hamburgerMenu = document.getElementById("hamburgerMenu");
     hamburgerMenu.classList.toggle("change");
     if (accordionMenu.style.visibility === "visible") {
         accordionMenu.style.visibility = "hidden";
@@ -52,3 +52,18 @@ hamburgerMenu.addEventListener('click', function () {
         accordionMenu.style.visibility = "visible";
     }
 })
+
+
+// var menuLinks = document.getElementsByClassName("menuLinks");
+// var i;
+// for (i = 0; i < menuLinks.length; i++) {
+//     menuLinks[i].addEventListener("click", function() {
+//         alert("bj");
+//     })
+
+// }
+
+var accorProLink = document.getElementById("accorProLink");
+function accorProLink() {
+    alert("bj");
+}
