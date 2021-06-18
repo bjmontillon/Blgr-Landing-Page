@@ -11,39 +11,33 @@ nav .container {
     transition: 0.4s;
   }
   
-  .bars1Style {
+  .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-5px, 4px);
-}
+  }
   
-  .bars2Style {opacity: 0;}
+  .change .bar2 {opacity: 0;}
   
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
-  .change + .accordion-menu {
-    visibility: visible;
-  }
+  
 
   header .accordion-menu {
-    max-height: 80.882800608828006vh;
+    min-height: 50.882800608828006vh;
     width: 320px;
     border-radius: 10px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: 120px;
-    left: 20px;
+    left: 25px;
     text-align: center;
     background-color: var(--White);
     line-height: 30px;
     font-family: var(--ubuntu);
     visibility: hidden;
-  }
-
-  div.accordion-menu ul .accordion-product:hover {
-    background-color: red;
   }
 
   header div.accordion-menu ul ul.accordion-product-links {
