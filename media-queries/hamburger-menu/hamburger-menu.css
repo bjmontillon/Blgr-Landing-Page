@@ -26,13 +26,13 @@ nav .container {
   
 
   header .accordion-menu {
-    min-height: 50.882800608828006vh;
-    width: 320px;
+    min-height: 40.882800608828006vh;
+    width: 80.42606149341142vw;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     top: 120px;
-    left: 28px;
+    left: 40px;
     text-align: center;
     background-color: var(--White);
     line-height: 30px;
@@ -40,23 +40,42 @@ nav .container {
     visibility: hidden;
     padding: 20px 0;
     display: grid;
+    place-items: center;
+  }
+
+  header .accordion-menu ul {
+    margin: 0 10px 5px 10px;
   }
 
   header .accordion-menu .accor-btns {
     display: grid;
     justify-content: center;
-    border: 1px solid red;
+    height: 12.937595129375952vh;
+    margin: 5 10px 0 10px;
+  }
+
+  header .accordion-menu .accor-btns button{
+        height: 5.5vh;
+        width: 30vw;
+        border-radius: 25px;
+        border: none;
+        font-family: var(--overpass);
+        font-weight: 300;
+        font-size: 0.70rem;
+        border: 1px solid white;
   }
 
   header div.accordion-menu ul ul.accordion-product-links {
     display: none;
-
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
   }
   header div.accordion-menu ul ul.accordion-company-links {
     display: none;
+    background-color: hsl(240, 1%, 86%);
   }
   header div.accordion-menu ul ul.accordion-connect-links {
     display: none;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
   }
 
   
