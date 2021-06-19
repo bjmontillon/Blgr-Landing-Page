@@ -62,8 +62,43 @@ hamburgerMenu.addEventListener('click', function () {
 //     })
 
 // }
+//                      accordion menu                  //
+accorProLink = () => {
+    let apLInk = document.getElementById("accor-pro-link");
+    let cmpLink = document.getElementById("accor-comp-link");
+    var mylink = document.getElementById("accor-conn-link")
+    if(apLInk.style.display === "block") {
+        apLInk.style.display = "none";
+    } else {
+        apLInk.style.display = "block";
+        cmpLink.style.display = "none";
+        mylink.style.display = "none";
+    }
+}
 
-var accorProLink = document.getElementById("accorProLink");
-function accorProLink() {
-    alert("bj");
+accorCompLink = () => {
+    let cmpLink = document.getElementById("accor-comp-link");
+    let apLInk = document.getElementById("accor-pro-link");
+    var mylink = document.getElementById("accor-conn-link")
+    
+    if (cmpLink.style.display === "block") {
+        cmpLink.style.display = "none"
+    } else {
+        cmpLink.style.display = "block";
+        mylink.style.display = "none";
+        apLInk.style.display = "none";
+    }
+ }
+
+accorConnLink = () => {
+    var mylink = document.getElementById("accor-conn-link")
+    let cmpLink = document.getElementById("accor-comp-link");
+    let apLInk = document.getElementById("accor-pro-link");
+    if (mylink.style.display === "block") {
+        mylink.style.display = "none";
+    } else {
+        mylink.style.display = "block";
+        apLInk.style.display = "none";
+        cmpLink.style.display = "none"
+    }
 }

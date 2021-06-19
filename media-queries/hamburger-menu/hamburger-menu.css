@@ -32,15 +32,30 @@ nav .container {
     position: absolute;
     z-index: 1;
     top: 120px;
-    left: 25px;
-    text-align: center;
+    left: 28px;
+    
     background-color: var(--White);
     line-height: 30px;
     font-family: var(--ubuntu);
     visibility: hidden;
+    padding: 20px 0;
+    display: grid;
+    justify-content: center;
   }
 
   header div.accordion-menu ul ul.accordion-product-links {
     display: none;
+    text-align: center;
   }
+  header div.accordion-menu ul ul.accordion-company-links {
+    display: none;
+    text-align: center;
+  }
+  header div.accordion-menu ul ul.accordion-connect-links {
+    display: none;
+    text-align: center;
+  }
+
+  
+
 
