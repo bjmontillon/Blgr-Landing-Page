@@ -55,6 +55,24 @@ nav .container {
     color: var(--Very-lightred);
   }
 
+  header .accordion-menu ul .accordion-product-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(240, 8%, 21%);
+  }
+
+  header .accordion-menu ul .accordion-company-links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(240, 8%, 21%);
+  }
+
+  header .accordion-menu ul .accordion-connect-links a{
+    text-decoration: none;
+    font-size: 14px;
+    color: hsl(240, 8%, 21%);
+  }
+
   header .accordion-menu .accor-btns {
     display: grid;
     justify-content: center;
@@ -81,7 +99,7 @@ nav .container {
 
   header div.accordion-menu ul ul.accordion-product-links {
     display: none;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    background-color: hsl(240, 1%, 86%);
   }
   header div.accordion-menu ul ul.accordion-company-links {
     display: none;
@@ -89,7 +107,7 @@ nav .container {
   }
   header div.accordion-menu ul ul.accordion-connect-links {
     display: none;
-    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    background-color: -hsl(240, 1%, 86%);
   }
 
   
