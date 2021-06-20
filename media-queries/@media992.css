@@ -13,7 +13,7 @@ header {
 }
 
 header nav {
-    border: 1px solid white;
+    
     height: 16.220700152207002vh;
     width: 80%;
     margin: auto;
@@ -24,7 +24,7 @@ header nav {
 }
 
 header nav .logo {
-    border: 1px solid green;
+    
     display: grid;
     align-items: center;
     font-size: 1.25rem;
@@ -33,7 +33,7 @@ header nav .logo {
 }
 
 header nav .nav-links {
-    border: 1px solid yellow;
+    
     display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-areas: "product company connect";
@@ -58,19 +58,19 @@ header nav .nav-links:hover {
 }
 
 .nav-links .product-links {
-    border: 1px solid red;
+    
     left: 27.452415812591507vw;
     visibility: hidden;
 }
 
 .nav-links .company-links {
-    border: 1px solid blue;
+    
     left: 37.33528550512445vw;
     visibility: hidden;
 }
 
 .nav-links .connect-links {
-    border: 1px solid green;
+    
     left: 46.48609077598829vw;
     visibility: hidden;
 }
@@ -98,7 +98,7 @@ header nav .nav-links:hover {
 
 header nav .btns {
     visibility: visible;
-    border: 1px solid blue;
+    
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center;
@@ -126,7 +126,7 @@ header nav .btns {
 
 header .header-content {
     display: grid;
-    border: 2px solid violet;
+    
     height: 70%;
     width: 80%;
     margin: auto;
@@ -135,7 +135,7 @@ header .header-content {
 }
 
 .header-content .header-content-items {
-    border: 2px solid black;
+    
     height: 50%;
     width: 80%;
     place-items: center;
@@ -180,4 +180,43 @@ header .header-content {
 }
 
     /* HEADER */
+
+    
+/*section1*/
+main .container .section1 {
+    grid-area: sec1;
+    place-items: center;
+    padding: 100px;
+    font-family: var(--overpass);
+    color: var(--Very-dark-black-blue);
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    background-position:  51.180380673499266vw center;
+    text-align: start;
+}
+
+main .container .section1 .section1_content1{
+    height: 200px;
+    display: grid;
+    justify-content: center;
+}
+
+main .container .section1 .section1_content2{
+    height: 300px;
+    display: grid;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+main .container .section1 .sec1_content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "section1_content1 section1_content1"
+    "section1_content2 --";
+}
+
+/*section1*/
 }
