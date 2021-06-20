@@ -26,7 +26,7 @@ nav .container {
   
 
   header .accordion-menu {
-    min-height: 40.882800608828006vh;
+    min-height: 30.882800608828006vh;
     width: 80.42606149341142vw;
     border-radius: 10px;
     position: absolute;
@@ -39,12 +39,16 @@ nav .container {
     font-family: var(--ubuntu);
     visibility: hidden;
     padding: 20px 0;
-    display: grid;
-    place-items: center;
+    color: var(--Very-dark-black-blue);
   }
 
   header .accordion-menu ul {
     margin: 0 10px 5px 10px;
+  }
+
+  header .accordion-menu ul i.fas {
+    font-size: 15px;
+    color: var(--Very-lightred);
   }
 
   header .accordion-menu .accor-btns {
@@ -60,9 +64,15 @@ nav .container {
         border-radius: 25px;
         border: none;
         font-family: var(--overpass);
-        font-weight: 300;
+        font-weight: bold;
         font-size: 0.70rem;
         border: 1px solid white;
+        background-color: white;
+  }
+
+  header .accordion-menu .accor-btns button:hover {
+    background-color:  var(--Very-lightred);
+    color: white;
   }
 
   header div.accordion-menu ul ul.accordion-product-links {

@@ -1,3 +1,8 @@
+
+
+
+
+
 var proLink = document.getElementById("prolink");
 var chevOne = document.getElementById("chevOne");
 var comLink = document.getElementById("comlink");
@@ -102,3 +107,6 @@ accorConnLink = () => {
         cmpLink.style.display = "none"
     }
 }
+
+
+
