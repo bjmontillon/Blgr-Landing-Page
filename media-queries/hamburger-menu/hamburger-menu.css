@@ -39,11 +39,15 @@ nav .container {
     font-family: var(--ubuntu);
     visibility: hidden;
     padding: 20px 0;
-    color: var(--Very-dark-black-blue);
+    
   }
 
   header .accordion-menu ul {
     margin: 0 10px 5px 10px;
+  }
+
+  header .accordion-menu ul{
+    color: hsl(240, 10%, 16%);
   }
 
   header .accordion-menu ul i.fas {
