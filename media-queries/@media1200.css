@@ -180,6 +180,7 @@ header .header-content {
 
 /*section1*/
 main .container .section1 {
+    height: 76.10350076103501vh;
     grid-area: sec1;
     place-items: center;
     padding: 100px;
@@ -188,21 +189,21 @@ main .container .section1 {
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-size: 700px;
-    background-position: 60.780380673499266vw 0.510350076103501vh;
+    background-position: 60.780380673499266vw 11.51035vh;
     text-align: start;
 }
 
 main .container .section1 .section1_content1{
-    height: 200px;
+    height: 12.87519vh;
     display: grid;
     justify-content: center;
 }
 
 main .container .section1 .section1_content2{
-    height: 300px;
+    height: 46.665145vh;
     display: grid;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 main .container .section1 .sec1_content {
@@ -213,7 +214,49 @@ main .container .section1 .sec1_content {
     "section1_content1 section1_content1"
     "section1_content2 --";
 }
-
 /*section1*/
+
+
+/*section2*/
+main .container .section2 {
+    height: 22.831050228310502vh;
+    grid-area: sec2;
+    border: 1px solid black;
+    text-align: start;
+    display: grid;
+    padding: 100px;
+    font-size: 13px;
+    color: white;
+    text-align: start;
+    font-family: var(--overpass);
+    background-image: url(../images/bg-pattern-circles.svg), linear-gradient(40deg,#3f4164, #2c2d3f);
+    background-size: auto, auto;
+    background-repeat: no-repeat;
+    background-position: -100px -500px, center;
+}
+
+main .container .section2 .sec2_content {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-template-areas: "section2_content1 section2_content2";
+}
+
+main .container .section2 .sec2_content .section2_content1 img {
+    height: 84.0182vh;
+    width: 48.0182vw;
+    grid-area: section2_content1;
+    position: absolute;
+    z-index: 1;
+    top: 169.414vh;
+    left: 4.392387vw;
+}
+
+main .container .section2 .sec2_content .section2_content2 {
+    grid-area: section2_content2;
+}
+
+/*section2*/
+
 
 }

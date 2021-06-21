@@ -103,10 +103,10 @@ main .container {
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 106.54490106544901vh 
-                        45.662100456621005vh 
-                        76.10350076103501vh 
-                        45.662100456621005vh;
+    grid-template-rows: 1fr 
+                        1fr 
+                        1fr 
+                        1fr;
     grid-template-areas: 
     "sec1"
     "sec2"
@@ -120,12 +120,7 @@ main .container .section1,.section2,.section3,.section4 {
 
 
 
-/*section2*/
-main .container .section2 {
-    grid-area: sec2;
-    border: 1px solid black
-}
-/*section2*/
+
 
 /*section3*/
 main .container .section3 {

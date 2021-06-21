@@ -183,6 +183,7 @@ header .header-content {
 
     /*section1*/
 main .container .section1 {
+    height: 92.103501vh;
     grid-area: sec1;
     place-items: center;
     padding: 50px 80px;
@@ -190,8 +191,8 @@ main .container .section1 {
     color: var(--Very-dark-black-blue);
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 500px;
-    background-position:  51.180380673499266vw 13vh;
+    background-size: 483px;
+    background-position:  53.180381vw 13vh;
     text-align: start;
 }
 
@@ -205,7 +206,7 @@ main .container .section1 .section1_content2{
     height: 300px;
     display: grid;
     line-height: 20px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 main .container .section1 .sec1_content {
