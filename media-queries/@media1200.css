@@ -1,4 +1,17 @@
 @media only screen and (min-width: 1200px) {
+
+main .container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 750px 390px 750px 390px;
+    grid-template-areas:
+        "sec1"
+        "sec2"
+        "sec3"
+        "sec4";
+}
+    
             /* HEADER */
 header {
     height: 80.10350076103501vh;
@@ -180,7 +193,7 @@ header .header-content {
 
 /*section1*/
 main .container .section1 {
-    height: 76.10350076103501vh;
+    height: 64.103501vh;
     grid-area: sec1;
     place-items: center;
     padding: 100px;
@@ -189,7 +202,7 @@ main .container .section1 {
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-size: 700px;
-    background-position: 60.780380673499266vw 11.51035vh;
+    background-position: 56.780381vw 4.51035vh;
     text-align: start;
 }
 
@@ -221,7 +234,7 @@ main .container .section1 .sec1_content {
 main .container .section2 {
     height: 22.831050228310502vh;
     grid-area: sec2;
-    border: 1px solid black;
+    border: 3px solid black;
     text-align: start;
     display: grid;
     padding: 100px;
@@ -244,8 +257,8 @@ main .container .section2 .sec2_content {
 }
 
 main .container .section2 .sec2_content .section2_content1 img {
-    height: 84.0182vh;
-    width: 48.0182vw;
+    height: 68.0182vh;
+    width: 43.0182vw;
     grid-area: section2_content1;
     position: absolute;
     z-index: 1;
@@ -255,9 +268,14 @@ main .container .section2 .sec2_content .section2_content1 img {
 
 main .container .section2 .sec2_content .section2_content2 {
     grid-area: section2_content2;
+    text-align: start;
 }
 
 /*section2*/
 
+/*section3*/
+
+
+/*section3*/
 
 }

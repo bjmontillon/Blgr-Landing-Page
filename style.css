@@ -99,20 +99,6 @@ body {
     max-width: 219.17808219178082vh;
 }
 
-main .container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr 
-                        1fr 
-                        1fr 
-                        1fr;
-    grid-template-areas: 
-    "sec1"
-    "sec2"
-    "sec3"
-    "sec4";
-}
 
 main .container .section1,.section2,.section3,.section4 {
     display: grid;

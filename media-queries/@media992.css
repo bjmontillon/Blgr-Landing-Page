@@ -1,5 +1,17 @@
 @media only screen and (min-width: 992px) {
 
+    main .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 670px 345px 750px 390px;
+        grid-template-areas:
+            "sec1"
+            "sec2"
+            "sec3"
+            "sec4";
+    }
+
     /* HEADER */
 header {
     height: 80.10350076103501vh;
@@ -207,7 +219,7 @@ main .container .section1 .section1_content2{
     height: 300px;
     display: grid;
     line-height: 18px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 main .container .section1 .sec1_content {
@@ -253,12 +265,13 @@ main .container .section2 .sec2_content .section2_content1 img {
     grid-area: section2_content1;
     position: absolute;
     z-index: 1;
-    top: 163.414vh;
+    top: 162.414vh;
     left: 4.392387vw;
 }
 
 main .container .section2 .sec2_content .section2_content2 {
     grid-area: section2_content2;
+    text-align: start;
 }
 
 /*section2*/
