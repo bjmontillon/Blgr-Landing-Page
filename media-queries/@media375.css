@@ -178,6 +178,7 @@
                /*section1*/
 
 main .container .section1 {
+    height: 81.103501vh;
     grid-area: sec1;
     padding: 10px;
     font-family: var(--overpass);
@@ -214,7 +215,50 @@ main .container .section1 .sec1_content {
 
         /*section1*/
 
+/*section2*/
+main .container .section2 {
+    height: 32.83105vh;
+    grid-area: sec2;
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    padding: 52px;
+    font-size: 12px;
+    color: white;
+    text-align: start;
+    font-family: var(--overpass);
+    background-image: url(../images/bg-pattern-circles.svg), linear-gradient(40deg,#3f4164, #2c2d3f);
+    background-size: 979px;
+    background-repeat: no-repeat;
+    background-position: -100px -500px, center;
+    border-radius: 0 100px 0 100px;
+}
 
+main .container .section2 .sec2_content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+        "section2_content1"
+        "section2_content2";
+}
+
+main .container .section2 .sec2_content .section2_content1 img {
+    height: 29.0182vh;
+    width: 58.0182vw;
+    grid-area: section2_content1;
+    position: absolute;
+    z-index: 1;
+    top: 160.414vh;
+    left: 19.392387vw;
+}
+
+main .container .section2 .sec2_content .section2_content2 {
+    grid-area: section2_content2;
+    text-align: center;
+}
+
+/*section2*/
 
 
 

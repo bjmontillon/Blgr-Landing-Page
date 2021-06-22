@@ -206,7 +206,7 @@ main .container .section1 .section1_content1{
 main .container .section1 .section1_content2{
     height: 300px;
     display: grid;
-    line-height: 20px;
+    line-height: 18px;
     font-size: 16px;
 }
 
@@ -237,6 +237,7 @@ main .container .section2 {
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: -100px -500px, center;
+    border-radius: 0 100px 0 100px;
 }
 
 main .container .section2 .sec2_content {
