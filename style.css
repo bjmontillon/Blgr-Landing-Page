@@ -74,12 +74,10 @@ The designs were created to the following widths:
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-}
+    font-size: 15px;}
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Very-dark-black-blue);
 }
 
 * {
