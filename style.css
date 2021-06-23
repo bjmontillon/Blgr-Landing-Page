@@ -108,16 +108,5 @@ main .container .section1,.section2,.section3,.section4 {
 
 
 
-/*section3*/
-main .container .section3 {
-    grid-area: sec3;
-    border: 1px solid blue
-}
-/*section3*/
 
-/*section4*/
-main .container .section4 {
-    grid-area: sec4;
-    border: 1px solid green
-}
-/*section4*/
+

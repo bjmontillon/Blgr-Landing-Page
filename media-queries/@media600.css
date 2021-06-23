@@ -273,6 +273,75 @@ main .container .section2 .sec2_content .section2_content2 {
 }
 
 /*section2*/
+/*section3*/
+main .container .section3 {
+    grid-area: sec3;
+    
+    font-family: var(--overpass);
+    color: var(--Very-dark-black-blue);
+    padding: 72px 100px;
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 590px;
+    background-position: center -9.48965vh;
+    text-align: center;
+}
+   
+main .container .section3 .sec3_content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-areas:
+    "--" 
+    "section3_content1"
+    "section3_content2";
+}
+
+main .container .section3 .sec3_content .section3_content1 {
+    grid-area: section3_content1;
+}
+main .container .section3 .sec3_content .section3_content2 {
+    grid-area: section3_content2;
+}
+    
+    
+
+/*section3*/
+/*section4*/
+main .container .section4 {
+    grid-area: sec4;
+    border: 1px solid green;
+    background-color: var(--Very-dark-black-blue);
+    border-radius: 0 100px 0 0;
+    padding: 100px;
+}
+
+main .container .sec4_content {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: "footer_logo footer_product footer_company footer_connect";
+    color: white;
+    font-family: var(--ubuntu);
+    text-align: start;
+}
+
+.sec4_content .footer_logo{
+}
+
+.sec4_content .footer_product ul {
+    
+}
+
+.sec4_content .company_product ul {
+    
+}
+
+.sec4_content .connect_product ul {
+    
+}
+
+/*section4*/
 
 
 }
